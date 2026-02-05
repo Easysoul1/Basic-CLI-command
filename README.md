@@ -6,7 +6,7 @@
 
 ## 📚 What You Have Here
 
-This guide is organized as **4 interconnected documents** designed to work together. You can read them in order or jump to what you need.
+This guide is organized as **7 interconnected documents** designed to work together. You can read them in order or jump to what you need.
 
 ### **Start Here →** [BEGINNERS_CLI_GUIDE.md](BEGINNERS_CLI_GUIDE.md)
 
@@ -19,8 +19,8 @@ The **main comprehensive guide** covering everything from "what is a CLI?" to "h
 - Part 4: Git Essentials (version control)
 - Part 5: Power User Starter Kit (tricks and tips)
 
-**Best for:** Learning the "why" and "how" of each command
-**Time to read:** 45-60 minutes for full guide, or 5-10 minutes per section
+**Best for:** Learning the "why" and "how" of each command  
+**Time to read:** 45-60 minutes for full guide, or 5-10 minutes per section  
 **Learning style:** Detailed explanations with lots of examples
 
 ---
@@ -36,8 +36,8 @@ A **one-page quick reference** with all the most important commands organized by
 - Bonus tricks (tab completion, history, help)
 - Common beginner mistakes and solutions
 
-**Best for:** Quick lookup while working
-**Time to reference:** 30 seconds to 2 minutes per lookup
+**Best for:** Quick lookup while working  
+**Time to reference:** 30 seconds to 2 minutes per lookup  
 **Learning style:** Tables and concise descriptions
 
 ---
@@ -53,8 +53,8 @@ A **checklist to mark off as you learn** each concept. Watch yourself level up!
 - Achievement badges
 - What to learn next
 
-**Best for:** Staying motivated and seeing progress
-**Time to use:** 2-3 minutes per session
+**Best for:** Staying motivated and seeing progress  
+**Time to use:** 2-3 minutes per session  
 **Learning style:** Gamification and positive reinforcement
 
 ---
@@ -70,8 +70,8 @@ A **structured 5-day curriculum** with daily exercises, time estimates, and chec
 - Day 4: Intro to Git (init, add, commit, log)
 - Day 5: Put It All Together + GitHub
 
-**Best for:** Structure and accountability
-**Time commitment:** 30-60 minutes per day
+**Best for:** Structure and accountability  
+**Time commitment:** 30-60 minutes per day  
 **Learning style:** Hands-on exercises with clear goals
 
 ---
@@ -88,9 +88,26 @@ A **structured 5-day curriculum** with daily exercises, time estimates, and chec
 - Mental models and analogies
 - Progressive mastery levels
 
-**Best for:** Understanding how it all fits together
-**Time to study:** 10-15 minutes
+**Best for:** Understanding how it all fits together  
+**Time to study:** 10-15 minutes  
 **Learning style:** Visual and conceptual
+
+---
+
+### **Troubleshoot Problems →** [TROUBLESHOOTING_FAQ.md](TROUBLESHOOTING_FAQ.md)
+
+Real answers to 25+ beginner problems you'll actually run into.
+
+**Contains:**
+- "Command not found" solutions
+- Undo and recovery strategies
+- Platform-specific fixes
+- Error message explanations
+- Emergency escape hatches
+
+**Best for:** Getting unstuck when something goes wrong  
+**Use when:** You hit an error or don't know how to undo something  
+**Learning style:** Problem-solution format
 
 ---
 
@@ -188,8 +205,8 @@ A **structured 5-day curriculum** with daily exercises, time estimates, and chec
 1. Reread [BEGINNERS_CLI_GUIDE.md](BEGINNERS_CLI_GUIDE.md) section on that command
 2. Check [COMMAND_MAP.md](COMMAND_MAP.md) to see how it fits with others
 3. Look up the command in [QUICK_REFERENCE.md](QUICK_REFERENCE.md)
-4. Google the exact error message
-5. Take a 5-minute break and try again
+4. Check [TROUBLESHOOTING_FAQ.md](TROUBLESHOOTING_FAQ.md) for common issues
+5. Google the exact error message
 
 ### Problem: "A command isn't working"
 **Solution:**
@@ -205,7 +222,7 @@ A **structured 5-day curriculum** with daily exercises, time estimates, and chec
 2. Type `pwd` to remember where you are
 3. Type `ls` to see what's around
 4. Type `clear` to clean up the screen
-5. Read [BEGINNERS_CLI_GUIDE.md](BEGINNERS_CLI_GUIDE.md) section on "HELP, I'm Stuck!"
+5. Read [TROUBLESHOOTING_FAQ.md](TROUBLESHOOTING_FAQ.md) for escape hatches
 
 ### Problem: "I think I broke something"
 **Solution:**
@@ -214,9 +231,7 @@ A **structured 5-day curriculum** with daily exercises, time estimates, and chec
    - Type `git status` to see what changed
    - Type `git reset HEAD~1` to undo last commit
    - Type `git checkout .` to undo all changes
-3. If you deleted something:
-   - Check your Trash/Recycle Bin
-   - Check if you have backups
+3. Check [TROUBLESHOOTING_FAQ.md](TROUBLESHOOTING_FAQ.md) for recovery guides
 4. If you're really stuck, ask on [StackOverflow.com](https://stackoverflow.com)
 
 ---
@@ -236,9 +251,9 @@ Once you've completed this guide, here are resources for deeper learning:
 - **OverTheWire**: [overthewire.org](https://overthewire.org) - Fun terminal challenges
 
 ### Video Learning
-- YouTube search: "Command Line Tutorial for Beginners"
-- YouTube search: "Git Tutorial for Beginners"
-- YouTube search: "Bash Scripting Basics"
+- YouTube: "Command Line Tutorial for Beginners"
+- YouTube: "Git Tutorial for Beginners"
+- YouTube: "Bash Scripting Basics"
 
 ### Communities
 - **Stack Overflow**: [stackoverflow.com](https://stackoverflow.com) - When you're stuck
@@ -251,13 +266,13 @@ Once you've completed this guide, here are resources for deeper learning:
 
 Every section in this guide follows these principles:
 
-✅ **Crystal Clear Language** - No jargon without explanation
-✅ **Real Examples** - Every command shows actual input and output
-✅ **Emotional Safety** - Explains why commands are safe or dangerous
-✅ **Visual Clarity** - Clear distinction between what you type and what appears
-✅ **Progressive Difficulty** - Builds from "look" to "do" to "manage"
-✅ **Multiple Angles** - Explanations + diagrams + examples + metaphors
-✅ **Humor & Warmth** - Makes learning enjoyable, not intimidating
+✅ **Crystal Clear Language** - No jargon without explanation  
+✅ **Real Examples** - Every command shows actual input and output  
+✅ **Emotional Safety** - Explains why commands are safe or dangerous  
+✅ **Visual Clarity** - Clear distinction between what you type and what appears  
+✅ **Progressive Difficulty** - Builds from "look" to "do" to "manage"  
+✅ **Multiple Angles** - Explanations + diagrams + examples + metaphors  
+✅ **Humor & Warmth** - Makes learning enjoyable, not intimidating  
 ✅ **Practical First** - Focuses on what you'll actually use
 
 ---
@@ -321,6 +336,7 @@ You now have everything you need to become comfortable with the command line:
 - ✅ A structured 5-day learning path
 - ✅ A progress tracker to celebrate wins
 - ✅ Visual maps to understand relationships
+- ✅ A troubleshooting FAQ for when stuck
 - ✅ Multiple learning formats for different styles
 
 **Pick one document, start reading/practicing, and let the learning begin!**
@@ -365,7 +381,7 @@ From "I've never used the command line" to "I can build and track projects" - th
 
 **Ready to become proficient?** → Follow [FIVE_DAY_LEARNING_PATH.md](FIVE_DAY_LEARNING_PATH.md) day by day.
 
-**Need specific help?** → Check [QUICK_REFERENCE.md](QUICK_REFERENCE.md) and [COMMAND_MAP.md](COMMAND_MAP.md).
+**Need specific help?** → Check [TROUBLESHOOTING_FAQ.md](TROUBLESHOOTING_FAQ.md), [QUICK_REFERENCE.md](QUICK_REFERENCE.md), and [COMMAND_MAP.md](COMMAND_MAP.md).
 
 **Want to celebrate progress?** → Mark items in [PROGRESS_TRACKER.md](PROGRESS_TRACKER.md).
 
@@ -373,8 +389,6 @@ From "I've never used the command line" to "I can build and track projects" - th
 
 *Created with ❤️ for people who are just getting started. You've got this!* 🎉
 
-**Now go open your terminal and type: `echo "I can do this!"`** 
+**Now go open your terminal and type:** `echo "I can do this!"`
 
-You totally can.
-#   B a s i c - C L I - c o m m a n d  
- 
+**You totally can.**
